@@ -1,0 +1,146 @@
+﻿body {
+}
+
+* {
+    padding:0px;
+    margin:0px;
+}
+.main {
+    width:1500px;
+    /*border:1px solid;*/
+    height:1200px;
+    margin-left:10px;
+}
+.menud1 {
+    list-style-type:none;
+}
+    .menud1 li {
+        display:inline;
+        margin-right:30px;
+        font-size:large;
+    }
+
+.d2c1 {
+    width:300px;
+    /*background-color:gray;*/
+    float:left
+}
+.menucap1 {
+    list-style-type:none;
+}
+    /*.menucap1 li {
+        padding:5px;
+        background-color:lightblue;
+        border:solid thick gray;
+    }*/
+    /*.menucap1 li:hover {
+        background-color:yellow;
+        border:solid medium red;
+    }*/
+.cap1 {
+    padding:5px;
+    background-color:lightblue;
+    border:solid medium gray;
+}
+    .cap1:hover {
+        background-color:yellow;
+        border:solid medium red;
+    }
+.menucap2 {
+    list-style-type:none;
+    position:absolute;
+    margin-left:75px;
+    margin-top:-18px;
+    display:none;
+}
+    .meucap2  li{
+        border:none;
+    }
+    .menucap2 li:hover {
+        border-bottom:solid medium yellow;
+    }
+.menucap3 {
+    list-style-type:none;
+    position:absolute;
+    margin-left:103px;
+    margin-top:-18px;
+    display:none;
+}
+    /*.menucap3 li {
+        color:darkgray;
+    }*/
+.dodai {
+    width:110px;
+    font-weight:normal;
+    border-bottom:1px solid darkgray;
+}
+
+.menucap1 li:hover .menucap2 {
+    display:block;
+}
+.menucap2 li:hover .menucap3 {
+    display:block;
+}
+
+.d2c2 {
+    width:1200px;
+    /*background-color:pink;*/
+    float:left;
+}
+.list {
+    margin-left:95px;
+   width:300px;
+   /*background-color:blue;*/
+   float:left;
+   border:solid 1px lightgray;
+}
+    .list p {
+        color:black;
+        text-align:center;
+    }
+    .list img {
+        width:300px;
+    }
+.nd {
+    font-size:small;
+        text-align:center;
+        color:gray;
+}
+.kengang {
+    clear:both
+}
+.dongia {
+    width:100px;
+    /*background-color:gray;*/
+    float:left;
+}
+.view {
+    width:100px;
+    background-color:gray;
+    float:right;
+    padding-top:5px;
+    padding-left:15px;
+    padding-bottom:5px;
+}
+.ice {
+    margin-left:110px;
+    width:600px;
+    /*background-color:yellow;*/
+    float:left;
+    margin-top:10px;
+    padding:10px;
+    /*border:solid 1px;*/
+}
+.ngoisao {
+    width:400px;
+    float:left;
+    /*background-color:red;*/
+    margin-top:10px;
+    padding-top:30px;
+    padding-left:10px;
+    /*border:solid 1px;*/
+}
+    .ngoisao img {
+        width:300px;
+        height:250px
+    }
